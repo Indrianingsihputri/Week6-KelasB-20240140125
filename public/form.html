@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Buat Caption — Bloom & Petal</title>
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Beranda</a>
+    <a href="form.html" aria-current="page">Buat Caption</a>
+  </nav>
+
+  <header>
+    <div class="eyebrow">✿ Share the Love ✿</div>
+    <h1>Flower Caption Maker</h1>
+    <p>Buat caption manis untuk buket bunga favoritmu</p>
+  </header>
+
+  <main>
+    <form id="form" novalidate>
+      <label for="nama">Nama Buket Bunga</label>
+      <input type="text" id="nama" placeholder="contoh: Buket Mawar Pink" aria-describedby="nama-error">
+      <small class="error" id="nama-error" aria-live="polite"></small>
+
+      <label for="harga">Harga Buket (Rp)</label>
+      <input type="number" id="harga" placeholder="contoh: 150000" aria-describedby="harga-error">
+      <small class="error" id="harga-error" aria-live="polite"></small>
+
+      <label for="template">Template</label>
+      <select id="template">
+        <option value="promo">Promo Spesial</option>
+        <option value="santai">Manis & Santai</option>
+        <option value="formal">Elegan</option>
+      </select>
+
+      <button type="submit">Buat Caption ♡</button>
+
+      <label for="caption">Hasil Caption</label>
+      <textarea id="caption" rows="14" readonly></textarea>
+    </form>
+  </main>
+
+  <footer>
+    Bloom &amp; Petal &middot; Say it with flowers ♡
+  </footer>
+
+<script src="js/form.js"></script>
+</body>
+</html>
