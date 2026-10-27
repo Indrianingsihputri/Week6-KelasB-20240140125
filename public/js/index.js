@@ -5,11 +5,11 @@
 const flowerProducts = [
   { title: "Buket Mawar Merah", category: "Mawar", description: "Romantis dan klasik", price: 185000, stock: 12, rating: 4.9, thumbnail: "https://images.unsplash.com/photo-1548094967-e25a127d1f6d?auto=format&fit=crop&w=800&q=80" },
   { title: "Buket Mawar Pink", category: "Mawar", description: "Lembut dan manis", price: 165000, stock: 8, rating: 4.8, thumbnail: "https://pin.it/2ndQGlEci" },
-  { title: "Buket Tulip Pastel", category: "Tulip", description: "Warna pastel yang elegan", price: 220000, stock: 7, rating: 5.0, thumbnail: "https://pin.it/6064hzds0" },
-  { title: "Buket Baby's Breath", category: "Baby's Breath", description: "Minimalis dan anggun", price: 135000, stock: 15, rating: 4.7, thumbnail: "https://pin.it/7jwCDLwjI" },
-  { title: "Buket Bunga Matahari", category: "Matahari", description: "Ceria untuk orang tersayang", price: 155000, stock: 10, rating: 4.8, thumbnail: "https://pin.it/4jXUTvi3C" },
-  { title: "Buket Mix Garden", category: "Mixed Flowers", description: "Campuran bunga segar pilihan", price: 250000, stock: 5, rating: 4.9, thumbnail: "https://pin.it/qNI31ep9N" },
-  { title: "Buket Lily Putih", category: "Lily", description: "Sederhana, bersih, berkesan", price: 195000, stock: 9, rating: 4.8, thumbnail: "https://pin.it/6zX02CSTZ" },
+  { title: "Buket Tulip Pastel", category: "Tulip", description: "Warna pastel yang elegan", price: 220000, stock: 7, rating: 5.0, thumbnail: "https://i.pinimg.com/1200x/a6/f6/80/a6f680c21014ef93937ca89c04b37fb3.jpg" },
+  { title: "Buket Baby's Breath", category: "Baby's Breath", description: "Minimalis dan anggun", price: 135000, stock: 15, rating: 4.7, thumbnail: "https://i.pinimg.com/1200x/c3/66/51/c36651913e837898de53261b3ac1ff5c.jpg" },
+  { title: "Buket Bunga Matahari", category: "Matahari", description: "Ceria untuk orang tersayang", price: 155000, stock: 10, rating: 4.8, thumbnail: "https://i.pinimg.com/736x/e7/cc/5c/e7cc5c69a7179c414c1a9c45f5410123.jpg" },
+  { title: "Buket Mix Garden", category: "Mixed Flowers", description: "Campuran bunga segar pilihan", price: 250000, stock: 5, rating: 4.9, thumbnail: "https://i.pinimg.com/736x/93/a7/a2/93a7a248fa916443d7b199816482c776.jpg" },
+  { title: "Buket Lily Putih", category: "Lily", description: "Sederhana, bersih, berkesan", price: 195000, stock: 9, rating: 4.8, thumbnail: "https://i.pinimg.com/736x/f5/38/4a/f5384a7922db6511e401a35ccd0162b4.jpg" },
   { title: "Buket Wisuda Ceria", category: "Wisuda", description: "Hadiah manis untuk kelulusan", price: 175000, stock: 14, rating: 4.9, thumbnail: "https://images.unsplash.com/photo-1526047932273-341f2a7631f9?auto=format&fit=crop&w=800&q=80" }
 ];
 
